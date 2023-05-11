@@ -6,7 +6,7 @@ install_doc:
 	sudo apt-get install doxygen
 
 setup:
-	pip install conan<2.0
+	pip install conan==1.59
 	conan profile detect
 
 prepare:
