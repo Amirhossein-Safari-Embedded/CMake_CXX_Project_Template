@@ -7,7 +7,7 @@ install_doc:
 
 setup:
 	pip install conan
-	conan user
+	conan -h
 
 prepare:
 	rm -rf build
