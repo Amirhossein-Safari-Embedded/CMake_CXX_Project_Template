@@ -12,7 +12,7 @@ setup:
 prepare:
 	rm -rf build
 	mkdir build
-	cd build && proxychains conan install .. && cd ..
+	cd build && conan install .. && cd ..
 
 prepare_vcpkg:
 	rm -rf build
