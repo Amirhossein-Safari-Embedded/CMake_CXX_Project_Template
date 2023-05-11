@@ -1,8 +1,8 @@
 var indexSectionsWithContent =
 {
-  0: "acmp",
+  0: "acfmp",
   1: "cm",
-  2: "ap"
+  2: "afp"
 };
 
 var indexSectionNames =
