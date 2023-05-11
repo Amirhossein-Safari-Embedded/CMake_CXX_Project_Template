@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-gitclone.cmake
-source_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-src
-work_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps
+command=/usr/bin/cmake;-P;/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-gitclone.cmake
+source_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-src
+work_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps
 repository=https://github.com/fmtlib/fmt.git
 remote=origin
 init_submodules=TRUE

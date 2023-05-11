@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/usr/bin/cmake;-P;/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
-source_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-src
-work_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps
+command=/usr/bin/cmake;-P;/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
+source_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-src
+work_dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps
 repository=https://github.com/gabime/spdlog.git
 remote=origin
 init_submodules=TRUE

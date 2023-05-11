@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(spdlog-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/gabime/spdlog.git" "GIT_TAG" "v1.11.0"
-                    SOURCE_DIR          "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-src"
-                    BINARY_DIR          "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build"
+                    SOURCE_DIR          "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-src"
+                    BINARY_DIR          "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

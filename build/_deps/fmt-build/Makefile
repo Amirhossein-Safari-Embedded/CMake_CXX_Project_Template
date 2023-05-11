@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final
+CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build
+CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-build//CMakeFiles/progress.marks
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles 0
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-build//CMakeFiles/progress.marks
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/clean
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/preinstall
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/preinstall
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/fmt-build/CMakeFiles/fmt.dir/rule:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/CMakeFiles/fmt.dir/rule
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/fmt-build/CMakeFiles/fmt.dir/rule
 .PHONY : _deps/fmt-build/CMakeFiles/fmt.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ fmt: _deps/fmt-build/CMakeFiles/fmt.dir/rule
 
 # fast build rule for target.
 fmt/fast:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/build
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
 
 src/format.o: src/format.cc.o
@@ -135,7 +135,7 @@ src/format.o: src/format.cc.o
 
 # target to build an object file
 src/format.cc.o:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o
 .PHONY : src/format.cc.o
 
 src/format.i: src/format.cc.i
@@ -143,7 +143,7 @@ src/format.i: src/format.cc.i
 
 # target to preprocess a source file
 src/format.cc.i:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.i
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.i
 .PHONY : src/format.cc.i
 
 src/format.s: src/format.cc.s
@@ -151,7 +151,7 @@ src/format.s: src/format.cc.s
 
 # target to generate assembly for a file
 src/format.cc.s:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.s
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.s
 .PHONY : src/format.cc.s
 
 src/os.o: src/os.cc.o
@@ -159,7 +159,7 @@ src/os.o: src/os.cc.o
 
 # target to build an object file
 src/os.cc.o:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o
 .PHONY : src/os.cc.o
 
 src/os.i: src/os.cc.i
@@ -167,7 +167,7 @@ src/os.i: src/os.cc.i
 
 # target to preprocess a source file
 src/os.cc.i:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.i
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.i
 .PHONY : src/os.cc.i
 
 src/os.s: src/os.cc.s
@@ -175,7 +175,7 @@ src/os.s: src/os.cc.s
 
 # target to generate assembly for a file
 src/os.cc.s:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.s
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(MAKE) $(MAKESILENT) -f _deps/fmt-build/CMakeFiles/fmt.dir/build.make _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.s
 .PHONY : src/os.cc.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

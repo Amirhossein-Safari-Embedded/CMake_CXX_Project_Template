@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final
+CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build
+CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/Executable.dir/depend.make
@@ -70,18 +70,18 @@ include app/CMakeFiles/Executable.dir/progress.make
 include app/CMakeFiles/Executable.dir/flags.make
 
 app/CMakeFiles/Executable.dir/main.cc.o: app/CMakeFiles/Executable.dir/flags.make
-app/CMakeFiles/Executable.dir/main.cc.o: /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/app/main.cc
+app/CMakeFiles/Executable.dir/main.cc.o: /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/app/main.cc
 app/CMakeFiles/Executable.dir/main.cc.o: app/CMakeFiles/Executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/Executable.dir/main.cc.o"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/Executable.dir/main.cc.o -MF CMakeFiles/Executable.dir/main.cc.o.d -o CMakeFiles/Executable.dir/main.cc.o -c /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/app/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/Executable.dir/main.cc.o"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/Executable.dir/main.cc.o -MF CMakeFiles/Executable.dir/main.cc.o.d -o CMakeFiles/Executable.dir/main.cc.o -c /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/app/main.cc
 
 app/CMakeFiles/Executable.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Executable.dir/main.cc.i"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/app/main.cc > CMakeFiles/Executable.dir/main.cc.i
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/app/main.cc > CMakeFiles/Executable.dir/main.cc.i
 
 app/CMakeFiles/Executable.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Executable.dir/main.cc.s"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/app/main.cc -o CMakeFiles/Executable.dir/main.cc.s
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/app/main.cc -o CMakeFiles/Executable.dir/main.cc.s
 
 # Object files for target Executable
 Executable_OBJECTS = \
@@ -93,20 +93,20 @@ Executable_EXTERNAL_OBJECTS =
 bin/Executable: app/CMakeFiles/Executable.dir/main.cc.o
 bin/Executable: app/CMakeFiles/Executable.dir/build.make
 bin/Executable: lib/libLibrary.a
-bin/Executable: _deps/fmt-build/libfmtd.a
+bin/Executable: _deps/fmt-build/libfmt.a
 bin/Executable: app/CMakeFiles/Executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Executable"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Executable.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/Executable"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Executable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/Executable.dir/build: bin/Executable
 .PHONY : app/CMakeFiles/Executable.dir/build
 
 app/CMakeFiles/Executable.dir/clean:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app && $(CMAKE_COMMAND) -P CMakeFiles/Executable.dir/cmake_clean.cmake
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app && $(CMAKE_COMMAND) -P CMakeFiles/Executable.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/Executable.dir/clean
 
 app/CMakeFiles/Executable.dir/depend:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/app /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/app/CMakeFiles/Executable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/app /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/app/CMakeFiles/Executable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/Executable.dir/depend
 

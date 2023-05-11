@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final
+CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build
+CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,19 +194,6 @@ unit_tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
 .PHONY : unit_tests/fast
 
-#=============================================================================
-# Target rules for targets named coverage
-
-# Build rule for target.
-coverage: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coverage
-.PHONY : coverage
-
-# fast build rule for target.
-coverage/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
-.PHONY : coverage/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,7 +203,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Docs"
-	@echo "... coverage"
 	@echo "... Executable"
 	@echo "... Library"
 	@echo "... fmt"

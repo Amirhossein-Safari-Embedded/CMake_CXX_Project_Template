@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-src/include
+CXX_INCLUDES = -I/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-src/include
 
-CXX_FLAGS =  -g -O0 -fprofile-arcs -ftest-coverage -g -std=c++17
+CXX_FLAGS = -O3 -DNDEBUG -std=c++17
 

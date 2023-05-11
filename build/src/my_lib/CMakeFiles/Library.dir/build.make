@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final
+CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build
+CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build
 
 # Include any dependencies generated for this target.
 include src/my_lib/CMakeFiles/Library.dir/depend.make
@@ -70,18 +70,18 @@ include src/my_lib/CMakeFiles/Library.dir/progress.make
 include src/my_lib/CMakeFiles/Library.dir/flags.make
 
 src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o: src/my_lib/CMakeFiles/Library.dir/flags.make
-src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o: /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/src/my_lib/my_lib.cc
+src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o: /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/src/my_lib/my_lib.cc
 src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o: src/my_lib/CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o -MF CMakeFiles/Library.dir/my_lib.cc.o.d -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/src/my_lib/my_lib.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o -MF CMakeFiles/Library.dir/my_lib.cc.o.d -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/src/my_lib/my_lib.cc
 
 src/my_lib/CMakeFiles/Library.dir/my_lib.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/my_lib.cc.i"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/src/my_lib/my_lib.cc > CMakeFiles/Library.dir/my_lib.cc.i
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/src/my_lib/my_lib.cc > CMakeFiles/Library.dir/my_lib.cc.i
 
 src/my_lib/CMakeFiles/Library.dir/my_lib.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/my_lib.cc.s"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/src/my_lib/my_lib.cc -o CMakeFiles/Library.dir/my_lib.cc.s
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/src/my_lib/my_lib.cc -o CMakeFiles/Library.dir/my_lib.cc.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -93,19 +93,19 @@ Library_EXTERNAL_OBJECTS =
 lib/libLibrary.a: src/my_lib/CMakeFiles/Library.dir/my_lib.cc.o
 lib/libLibrary.a: src/my_lib/CMakeFiles/Library.dir/build.make
 lib/libLibrary.a: src/my_lib/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libLibrary.a"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libLibrary.a"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/my_lib/CMakeFiles/Library.dir/build: lib/libLibrary.a
 .PHONY : src/my_lib/CMakeFiles/Library.dir/build
 
 src/my_lib/CMakeFiles/Library.dir/clean:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean.cmake
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean.cmake
 .PHONY : src/my_lib/CMakeFiles/Library.dir/clean
 
 src/my_lib/CMakeFiles/Library.dir/depend:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/src/my_lib /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/src/my_lib/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/src/my_lib /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/src/my_lib/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/my_lib/CMakeFiles/Library.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild
+CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild
+CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild
 
 # Utility rule file for spdlog-populate.
 
@@ -77,57 +77,57 @@ CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-
 CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
 CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
 CMakeFiles/spdlog-populate-complete: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'spdlog-populate'"
-	/usr/bin/cmake -E make_directory /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete
-	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'spdlog-populate'"
+	/usr/bin/cmake -E make_directory /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete
+	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update:
 .PHONY : spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'spdlog-populate'"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'spdlog-populate'"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure: spdlog-populate-prefix/tmp/spdlog-populate-cfgcmd.txt
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'spdlog-populate'"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'spdlog-populate'"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-gitinfo.txt
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'spdlog-populate'"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps && /usr/bin/cmake -P /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'spdlog-populate'"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps && /usr/bin/cmake -P /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitclone.cmake
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'spdlog-populate'"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'spdlog-populate'"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'spdlog-populate'"
-	/usr/bin/cmake -Dcfgdir= -P /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'spdlog-populate'"
+	/usr/bin/cmake -Dcfgdir= -P /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'spdlog-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'spdlog-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch
+	/usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update:
 .PHONY : spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'spdlog-populate'"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'spdlog-populate'"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E echo_append
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-build && /usr/bin/cmake -E touch /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test
 
 spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update: spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'spdlog-populate'"
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-src && /usr/bin/cmake -P /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'spdlog-populate'"
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-src && /usr/bin/cmake -P /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/spdlog-populate-prefix/tmp/spdlog-populate-gitupdate.cmake
 
 spdlog-populate: CMakeFiles/spdlog-populate
 spdlog-populate: CMakeFiles/spdlog-populate-complete
@@ -151,6 +151,6 @@ CMakeFiles/spdlog-populate.dir/clean:
 .PHONY : CMakeFiles/spdlog-populate.dir/clean
 
 CMakeFiles/spdlog-populate.dir/depend:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spdlog-populate.dir/depend
 

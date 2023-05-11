@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-src"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-build"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/src"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-src"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-build"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/src"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

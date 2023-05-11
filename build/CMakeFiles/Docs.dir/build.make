@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final
+CMAKE_SOURCE_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build
+CMAKE_BINARY_DIR = /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build
 
 # Utility rule file for Docs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/Docs.dir/compiler_depend.make
 include CMakeFiles/Docs.dir/progress.make
 
 CMakeFiles/Docs:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/docs && /usr/bin/doxygen /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/Doxyfile
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/docs && /usr/bin/doxygen /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/Doxyfile
 
 Docs: CMakeFiles/Docs
 Docs: CMakeFiles/Docs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/Docs.dir/clean:
 .PHONY : CMakeFiles/Docs.dir/clean
 
 CMakeFiles/Docs.dir/depend:
-	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/CMakeFiles/Docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/CMakeFiles/Docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Docs.dir/depend
 

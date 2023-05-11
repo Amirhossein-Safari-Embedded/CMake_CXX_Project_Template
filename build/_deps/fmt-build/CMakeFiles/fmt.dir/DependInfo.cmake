@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-src/src/format.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o.d"
-  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-src/src/os.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o.d"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-src/src/format.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o.d"
+  "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-src/src/os.cc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o" "gcc" "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o.d"
   )
 
 # Targets to which this target links.

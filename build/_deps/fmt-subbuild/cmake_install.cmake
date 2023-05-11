@@ -1,4 +1,4 @@
-# Install script for directory: /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild
+# Install script for directory: /home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/12_Final/build/_deps/fmt-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ahs/Cmake_Tutorial/UdemyCmake/2_CMake/CMake_CXX_Project_Template/build/_deps/fmt-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
