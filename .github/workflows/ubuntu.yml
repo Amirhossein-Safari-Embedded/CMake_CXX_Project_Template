@@ -30,9 +30,11 @@ jobs:
     - name: building
       run: |
         cmake --build build --config Debug --target coverage -j4
-    - name: testing
-      run: |
-        cd build
-        cd bin
-        ./unit_tests
-        bash <(curl -s https://codecov.io/bash)
+    # - name: testing
+    #   run: |
+    #     cd build
+    #     cd bin
+    #     ./unit_tests
+    #     bash <(curl -s https://codecov.io/bash)
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3

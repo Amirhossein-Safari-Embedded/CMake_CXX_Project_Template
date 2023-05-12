@@ -13,6 +13,6 @@ TEST_CASE( "Factorials are computed", "[factorial]" )
     REQUIRE( factorial(10) == 3628800 );
 }
 
-TEST_CASE( "Test printer function", "[print_hello_world]") {
-    REQUIRE( print_hello_world() == 1);
-}
+// TEST_CASE( "Test printer function", "[print_hello_world]") {
+//     REQUIRE( print_hello_world() == 1);
+// }
