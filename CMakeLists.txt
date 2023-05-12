@@ -11,6 +11,10 @@ option(COMPILE_EXECUTABLE "Whether to complie the Executable" ON)
 option(ENABLE_WARNINGS      "Enable to add warnings to a target."   ON)
 option(ENABLE_TESTING "Whether to enable the unit testing build" ON)
 option(ENABLE_COVERAGE      "Enable a Code Coverage build."         OFF)
+option(ENABLE_CLANG_TIDY    "Enable to add clang tidy."             ON)
+option(ENABLE_CPPCHECK      "Enable to add cppcheck."               ON)
+option(ENABLE_LTO           "Enable to add Link Time Optimization." ON)
+option(ENABLE_CCACHE        "Enable to add Ccache."                 ON)
 
 set(LIBRARY_NAME Library)
 set(EXECUTABLE_NAME Executable)
@@ -21,9 +25,17 @@ include(Warnings)
 include(FetchContent)
 include(Docs)
 
+include(StaticAnalyzers)
+include(LTO)
+include(Ccache)
+
 if (ENABLE_COVERAGE)
     include(CodeCoverage)
     append_coverage_compiler_flags()
+endif()
+
+if (ENABLE_LTO)
+    find_lto(CXX)
 endif()
 
 add_git_submodule(external/json)

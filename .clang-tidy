@@ -1,7 +1,14 @@
 ---
-Checks: 'clang-analyzer-*,bugprone-*,readability-non-const-parameter,misc-const-correctness,-clang-analyzer-security.*,-bugprone-easily-swappable-parameters'
-WarningsAsErrors: ''
-HeaderFilterRegex: ''
+Checks: '-*,
+         clang-*,
+         bugprone-*,
+         cppcoreguidelines-*,
+         modernize-*,
+         performance-*,
+         -cppcoreguidelines-pro-type-vararg,
+         -modernize-use-trailing-return-type,
+         -bugprone-exception-escape'
+HeaderFilterRegex: 'src/*,app/*'
 AnalyzeTemporaryDtors: false
-FormatStyle:     none
+WarningsAsErrors: ''
 ...
